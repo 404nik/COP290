@@ -11,3 +11,9 @@ COP290 is a hands-on course designed to enhance your software engineering skills
 3. **Compilation and Dependencies**: Use Makefiles to manage compilation and dependencies.
 4. **Debugging**: Utilize gdb for debugging instead of relying on print statements.
 5. **Version Control**: Employ git for version control to manage and collaborate on code effectively.
+
+## Additional Information
+
+For more details, visit the [course webpage](https://www.cse.iitd.ac.in/~rijurekha/cop290_2022.html).
+
+This course aims to prepare you for professional software development by instilling essential skills and ethical practices necessary for any successful career in computer science.
