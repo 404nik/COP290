@@ -1,4 +1,4 @@
-# COP290: Software Engineering
+# COP290: Design Practrices
 
 ## Course Overview
 
