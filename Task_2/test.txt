@@ -1,0 +1,521 @@
+Mix_Music *satpura = NULL;
+Mix_Music *jwala = NULL;
+Mix_Music *acadarea = NULL;
+Mix_Music *amul = NULL;
+Mix_Music *aravali = NULL;
+Mix_Music *bharti = NULL;
+Mix_Music *bike = NULL;
+Mix_Music *ccd = NULL;
+Mix_Music *centrallib = NULL;
+Mix_Music *cyclee = NULL;
+Mix_Music *d16 = NULL;
+Mix_Music *dograhall = NULL;
+Mix_Music *garden = NULL;
+Mix_Music *girnar = NULL;
+Mix_Music *hospital = NULL;
+Mix_Music *kara = NULL;
+Mix_Music *kumaon = NULL;
+Mix_Music *lhc = NULL;
+Mix_Music *maingr = NULL;
+Mix_Music *nalandagr = NULL;
+Mix_Music *nil = NULL;
+Mix_Music *sbi = NULL;
+Mix_Music *shiva = NULL;
+Mix_Music *staffc = NULL;
+Mix_Music *udai = NULL;
+Mix_Music *vindy = NULL;
+Mix_Music *zanskar = NULL;
+
+
+if (audio == false && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN && ((mPosX >=415 && mPosX <= 474 && mPosY >= 226 && mPosY <= 297))){
+		audio = true;
+		Mix_PlayMusic(satpura,0);
+	}
+	else if (audio == true && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN){
+		audio = false;
+		Mix_HaltMusic();
+	}
+
+	else if  (audio == false && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN && ((mPosX >=35 && mPosX <= 120 && mPosY >= 75 && mPosY <= 165))){
+		audio = true;
+		Mix_PlayMusic(jwala,0);
+	}
+	else if (audio == true && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN){
+		audio = false;
+		Mix_HaltMusic();
+	}
+
+	else if  (audio == false && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN && ((mPosX >=783 && mPosX <= 911 && mPosY >= 128 && mPosY <= 228))){
+		audio = true;
+		Mix_PlayMusic(acadarea,0);
+	}
+	else if (audio == true && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN){
+		audio = false;
+		Mix_HaltMusic();
+	}
+
+	else if  (audio == false && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN && ((mPosX >=864 && mPosX <= 891 && mPosY >= 424 && mPosY <= 447))){
+		audio = true;
+		Mix_PlayMusic(amul,0);
+	}
+	else if (audio == true && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN){
+		audio = false;
+		Mix_HaltMusic();
+	}
+
+	else if  (audio == false && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN && ((mPosX >=25 && mPosX <= 120 && mPosY >= 240 && mPosY <= 334))){
+		audio = true;
+		Mix_PlayMusic(aravali,0);
+	}
+	else if (audio == true && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN){
+		audio = false;
+		Mix_HaltMusic();
+	}
+
+	else if  (audio == false && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN && ((mPosX >=600 && mPosX <= 754 && mPosY >= 329 && mPosY <= 459))){
+		audio = true;
+		Mix_PlayMusic(bharti,0);
+	}
+	else if (audio == true && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN){
+		audio = false;
+		Mix_HaltMusic();
+	}
+
+    else if (audio == false && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN && (((mPosX >=537 && mPosX <= 577 && mPosY >= 514 && mPosY <= 561)||(mPosX >=142 && mPosX <= 189 && mPosY >= 664 && mPosY <= 714)||(mPosX >=1132 && mPosX <= 1181 && mPosY >= 298 && mPosY <= 348)))){
+		audio = true;
+		Mix_PlayMusic(bike,0);
+	}
+	else if (audio == true && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN){
+		audio = false;
+		Mix_HaltMusic();
+	}
+
+	else if  (audio == false && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN && ((mPosX >=869 && mPosX <= 917 && mPosY >= 253 && mPosY <= 298))){
+		audio = true;
+		Mix_PlayMusic(ccd,0);
+	}
+	else if (audio == true && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN){
+		audio = false;
+		Mix_HaltMusic();
+	}
+
+	else if  (audio == false && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN && ((mPosX >=915 && mPosX <= 963 && mPosY >= 341 && mPosY <= 409))){
+		audio = true;
+		Mix_PlayMusic(centrallib,0);
+	}
+	else if (audio == true && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN){
+		audio = false;
+		Mix_HaltMusic();
+	}
+	
+	else if  (audio == false && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN && (((mPosX >=148 && mPosX <= 196 && mPosY >= 214 && mPosY <= 265)||(mPosX >=614 && mPosX <= 650 && mPosY >= 511 && mPosY <= 547||(mPosX >=113 && mPosX <= 1176 && mPosY >= 66 && mPosY <= 116))))){
+		audio = true;
+		Mix_PlayMusic(cyclee,0);
+	}
+	else if (audio == true && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN){
+		audio = false;
+		Mix_HaltMusic();
+	}
+	
+	else if  (audio == false && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN && ((mPosX >=145 && mPosX <= 186 && mPosY >= 301 && mPosY <= 341))){
+		audio = true;
+		Mix_PlayMusic(d16,0);
+	}
+	else if (audio == true && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN){
+		audio = false;
+		Mix_HaltMusic();
+	}
+	
+	else if  (audio == false && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN && ((mPosX >=992 && mPosX <= 1150 && mPosY >= 222 && mPosY <= 291))){
+		audio = true;
+		Mix_PlayMusic(dograhall,0);
+	}
+	else if (audio == true && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN){
+		audio = false;
+		Mix_HaltMusic();
+	}
+	
+	else if  (audio == false && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN && ((mPosX >=1189 && mPosX <= 1236 && mPosY >=172 && mPosY <= 232))){
+		audio = true;
+		Mix_PlayMusic(garden,0);
+	}
+	else if (audio == true && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN){
+		audio = false;
+		Mix_HaltMusic();
+	}
+	
+	else if  (audio == false && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN && ((mPosX >=537 && mPosX <= 601 && mPosY >= 119 && mPosY <= 200))){
+		audio = true;
+		Mix_PlayMusic(girnar,0);
+	}
+	else if (audio == true && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN){
+		audio = false;
+		Mix_HaltMusic();
+	}
+	
+	else if  (audio == false && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN && ((mPosX >=487 && mPosX <= 581 && mPosY >= 339 && mPosY <= 429))){
+		audio = true;
+		Mix_PlayMusic(hospital,0);
+	}
+	else if (audio == true && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN){
+		audio = false;
+		Mix_HaltMusic();
+	}
+	
+	else if  (audio == false && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN && ((mPosX >=25 && mPosX <= 120 && mPosY >= 410 && mPosY <= 504))){
+		audio = true;
+		Mix_PlayMusic(kara,0);
+	}
+	else if (audio == true && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN){
+		audio = false;
+		Mix_HaltMusic();
+	}
+	
+	else if  (audio == false && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN && ((mPosX >=176 && mPosX <= 231 && mPosY >= 97 && mPosY <= 165))){
+		audio = true;
+		Mix_PlayMusic(kumaon,0);
+	}
+	else if (audio == true && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN){
+		audio = false;
+		Mix_HaltMusic();
+	}
+	
+	else if  (audio == false && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN && ((mPosX >=1146 && mPosX <= 1208 && mPosY >= 436 && mPosY <= 489))){
+		audio = true;
+		Mix_PlayMusic(lhc,0);
+	}
+	else if (audio == true && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN){
+		audio = false;
+		Mix_HaltMusic();
+	}
+	
+	else if  (audio == false && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN && ((mPosX >=564 && mPosX <= 876 && mPosY >= 606 && mPosY <= 686))){
+		audio = true;
+		Mix_PlayMusic(maingr,0);
+	}
+	else if (audio == true && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN){
+		audio = false;
+		Mix_HaltMusic();
+	}
+	
+	else if  (audio == false && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN && ((mPosX >=135 && mPosX <= 261 && mPosY >= 469 && mPosY <= 605))){
+		audio = true;
+		Mix_PlayMusic(nalandagr,0);
+	}
+	else if (audio == true && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN){
+		audio = false;
+		Mix_HaltMusic();
+	}
+	
+	else if  (audio == false && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN && ((mPosX >=25 && mPosX <= 120 && mPosY >= 567 && mPosY <= 670))){
+		audio = true;
+		Mix_PlayMusic(nil,0);
+	}
+	else if (audio == true && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN){
+		audio = false;
+		Mix_HaltMusic();
+	}
+	
+	else if  (audio == false && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN && ((mPosX >=1052 && mPosX <= 1118 && mPosY >= 368 && mPosY <= 436))){
+		audio = true;
+		Mix_PlayMusic(sbi,0);
+	}
+	else if (audio == true && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN){
+		audio = false;
+		Mix_HaltMusic();
+	}
+	
+	else if  (audio == false && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN && ((mPosX >=286 && mPosX <= 353 && mPosY >= 287 && mPosY <= 361))){
+		audio = true;
+		Mix_PlayMusic(shiva,0);
+	}
+	else if (audio == true && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN){
+		audio = false;
+		Mix_HaltMusic();
+	}
+	
+	else if  (audio == false && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN && ((mPosX >=950 && mPosX <= 1000 && mPosY >= 521 && mPosY <= 575))){
+		audio = true;
+		Mix_PlayMusic(staffc,0);
+	}
+	else if (audio == true && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN){
+		audio = false;
+		Mix_HaltMusic();
+	}
+	
+	else if  (audio == false && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN && ((mPosX >=35 && mPosX <= 120 && mPosY >= 75 && mPosY <= 165))){
+		audio = true;
+		Mix_PlayMusic(udai,0);
+	}
+	else if (audio == true && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN){
+		audio = false;
+		Mix_HaltMusic();
+	}
+	
+	else if  (audio == false && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN && ((mPosX >=287 && mPosX <= 346 && mPosY >= 130 && mPosY <= 304))){
+		audio = true;
+		Mix_PlayMusic(vindy,0);
+	}
+	else if (audio == true && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN){
+		audio = false;
+		Mix_HaltMusic();
+	}
+	
+	else if  (audio == false && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN && ((mPosX >=361 && mPosX <= 410 && mPosY >= 381 && mPosY <= 442))){
+		audio = true;
+		Mix_PlayMusic(zanskar,0);
+	}
+	else if (audio == true && e.type == SDL_KEYDOWN && e.key.repeat == 0 && e.key.keysym.sym == SDLK_RETURN){
+		audio = false;
+		Mix_HaltMusic();
+	}
+
+
+
+
+
+
+satpura = Mix_LoadMUS("satpura.mp3");
+	if (satpura == NULL){
+		cout<<"MUSIC ERROR!!! "<<endl;
+		success = false;
+	}
+	
+	jwala = Mix_LoadMUS("jwala.mp3");
+	if (jwala == NULL){
+		cout<<"MUSIC ERROR!!! "<<endl;
+		success = false;
+	}
+
+	acadarea = Mix_LoadMUS("acadarea.mp3");
+	if (acadarea == NULL){
+		cout<<"MUSIC ERROR!!! "<<endl;
+		success = false;
+	}
+	
+	aravali = Mix_LoadMUS("aravali.mp3");
+	if (aravali == NULL){
+		cout<<"MUSIC ERROR!!! "<<endl;
+		success = false;
+	}
+	
+	bharti = Mix_LoadMUS("bharti.mp3");
+	if (bharti == NULL){
+		cout<<"MUSIC ERROR!!! "<<endl;
+		success = false;
+	}
+
+	bike = Mix_LoadMUS("bike.mp3");
+	if (bike == NULL){
+		cout<<"MUSIC ERROR!!! "<<endl;
+		success = false;
+	}
+
+	amul = Mix_LoadMUS("amul.mp3");
+	if (amul == NULL){
+		cout<<"MUSIC ERROR!!! "<<endl;
+		success = false;
+	}
+	ccd = Mix_LoadMUS("ccd.mp3");
+	if (ccd == NULL){
+		cout<<"MUSIC ERROR!!! "<<endl;
+		success = false;
+	}
+
+	centrallib = Mix_LoadMUS("centrallib.mp3");
+	if (centrallib == NULL){
+		cout<<"MUSIC ERROR!!! "<<endl;
+		success = false;
+	}
+
+	cyclee = Mix_LoadMUS("cyclee.mp3");
+	if (cyclee == NULL){
+		cout<<"MUSIC ERROR!!! "<<endl;
+		success = false;
+	}
+
+	d16 = Mix_LoadMUS("d16.mp3");
+	if (d16 == NULL){
+		cout<<"MUSIC ERROR!!! "<<endl;
+		success = false;
+	}
+
+	dograhall = Mix_LoadMUS("dograhall.mp3");
+	if (dograhall == NULL){
+		cout<<"MUSIC ERROR!!! "<<endl;
+		success = false;
+	}
+
+	garden = Mix_LoadMUS("garden.mp3");
+	if (garden == NULL){
+		cout<<"MUSIC ERROR!!! "<<endl;
+		success = false;
+	}
+
+	girnar = Mix_LoadMUS("girnar.mp3");
+	if (girnar == NULL){
+		cout<<"MUSIC ERROR!!! "<<endl;
+		success = false;
+	}
+
+	hospital = Mix_LoadMUS("hospital.mp3");
+	if (hospital == NULL){
+		cout<<"MUSIC ERROR!!! "<<endl;
+		success = false;
+	}
+	
+	kara = Mix_LoadMUS("kara.mp3");
+	if (kara == NULL){
+		cout<<"MUSIC ERROR!!! "<<endl;
+		success = false;
+	}
+	
+	kumaon = Mix_LoadMUS("kumaon.mp3");
+	if (kumaon == NULL){
+		cout<<"MUSIC ERROR!!! "<<endl;
+		success = false;
+	}
+	
+	lhc = Mix_LoadMUS("lhc.mp3");
+	if (lhc == NULL){
+		cout<<"MUSIC ERROR!!! "<<endl;
+		success = false;
+	}
+	
+	maingr = Mix_LoadMUS("maingr.mp3");
+	if (maingr == NULL){
+		cout<<"MUSIC ERROR!!! "<<endl;
+		success = false;
+	}
+	
+	nalandagr = Mix_LoadMUS("nalandagr.mp3");
+	if (nalandagr == NULL){
+		cout<<"MUSIC ERROR!!! "<<endl;
+		success = false;
+	}
+
+	nil = Mix_LoadMUS("nil.mp3");
+	if (nil == NULL){
+		cout<<"MUSIC ERROR!!! "<<endl;
+		success = false;
+	}
+	
+	sbi = Mix_LoadMUS("sbi.mp3");
+	if (sbi == NULL){
+		cout<<"MUSIC ERROR!!! "<<endl;
+		success = false;
+	}
+	
+	shiva = Mix_LoadMUS("shiva.mp3");
+	if (shiva == NULL){
+		cout<<"MUSIC ERROR!!! "<<endl;
+		success = false;
+	}
+	
+	staffc = Mix_LoadMUS("staffc.mp3");
+	if (staffc == NULL){
+		cout<<"MUSIC ERROR!!! "<<endl;
+		success = false;
+	}
+	
+	udai = Mix_LoadMUS("udai.mp3");
+	if (udai == NULL){
+		cout<<"MUSIC ERROR!!! "<<endl;
+		success = false;
+	}
+	
+	vindy = Mix_LoadMUS("vindy.mp3");
+	if (vindy == NULL){
+		cout<<"MUSIC ERROR!!! "<<endl;
+		success = false;
+	}
+	
+	zanskar = Mix_LoadMUS("zanskar.mp3");
+	if (zanskar == NULL){
+		cout<<"MUSIC ERROR!!! "<<endl;
+		success = false;
+	}
+
+
+
+
+    Mix_FreeMusic(jwala);
+	jwala = NULL;
+
+	Mix_FreeMusic(satpura);
+	satpura = NULL;
+
+	Mix_FreeMusic(acadarea);
+	acadarea = NULL;
+
+	Mix_FreeMusic(amul);
+	amul = NULL;
+	
+	Mix_FreeMusic(aravali);
+	aravali = NULL;
+	
+	Mix_FreeMusic(bharti);
+	bharti = NULL;
+
+	Mix_FreeMusic(bike);
+	bike = NULL;
+	
+	Mix_FreeMusic(ccd);
+	ccd = NULL;
+	
+	Mix_FreeMusic(centrallib);
+	centrallib = NULL;
+	
+	Mix_FreeMusic(cyclee);
+	cyclee = NULL;
+	
+	Mix_FreeMusic(d16);
+	d16 = NULL;
+	
+	Mix_FreeMusic(dograhall);
+	dograhall = NULL;
+	
+	Mix_FreeMusic(garden);
+	garden = NULL;
+	
+	Mix_FreeMusic(girnar);
+	girnar = NULL;
+	
+	Mix_FreeMusic(hospital);
+	hospital = NULL;
+	
+	Mix_FreeMusic(kara);
+	kara = NULL;
+	
+	Mix_FreeMusic(kumaon);
+	kumaon = NULL;
+	
+	Mix_FreeMusic(lhc);
+	lhc = NULL;
+	
+	Mix_FreeMusic(maingr);
+	maingr = NULL;
+	
+	Mix_FreeMusic(nalandagr);
+	nalandagr = NULL;
+	
+	Mix_FreeMusic(nil);
+	nil = NULL;
+	
+	Mix_FreeMusic(sbi);
+	sbi = NULL;
+	
+	Mix_FreeMusic(shiva);
+	shiva = NULL;
+	
+	Mix_FreeMusic(staffc);
+	staffc = NULL;
+	
+	Mix_FreeMusic(udai);
+	udai = NULL;
+	
+	Mix_FreeMusic(vindy);
+	vindy = NULL;
+
+	Mix_FreeMusic(zanskar);
+	zanskar = NULL;
